@@ -12,7 +12,7 @@ import pandas as pd
 from pprint import pprint
 from bs4 import BeautifulSoup 
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
+from sklearn.cross_validation import train_test_split
 pd.set_option("display.max_colwidth",-1)
 
 def rescue_code(function):
